@@ -20,7 +20,8 @@ function Spa() {
   );
 }
 
-ReactDOM.render(
-  <Spa/>,
+const root = ReactDOM.createRoot(
   document.getElementById('root')
-);
+  );
+const element = <Spa/>;
+root.render(element)
